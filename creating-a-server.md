@@ -1,4 +1,4 @@
-# Creating a server
+# Creating a Server
 
 ## Operational System
 

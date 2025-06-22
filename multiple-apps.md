@@ -1,4 +1,4 @@
-# Multiple apps on the same single server
+# Multiple Apps
 
 You can run multiple apps on a single server. For this, you need to provide a custom Caddyfile, as documented on [Proxy](/proxy). This Caddyfile needs to be the same across your apps running on the same server.
 

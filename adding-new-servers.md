@@ -1,4 +1,4 @@
-# Adding new servers
+# Adding New Servers
 
 Ciara allows to deploy on 1 server, or 1000. There's no limit on how many servers you can use.
 
