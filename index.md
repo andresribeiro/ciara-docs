@@ -28,6 +28,8 @@ features:
     details: Deploy updates without service interruption.
   - title: Automatic HTTPS support
     details: Don't worry about certificates renewal.
+  - title: Multiple apps
+    details: Deploy multipe apps on the same server.
 ---
 
 ## Why not Coolify, Kamal or Dokku?
