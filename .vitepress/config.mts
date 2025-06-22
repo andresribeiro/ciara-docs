@@ -19,6 +19,7 @@ export default defineConfig({
 				items: [
 					{ text: "Quickstart", link: "/quickstart" },
 					{ text: "Deploying", link: "/deploying" },
+					{ text: "Creating a server", link: "/creating-a-server" },
 					{ text: "Adding new servers", link: "/adding-new-servers" },
 				],
 			},
