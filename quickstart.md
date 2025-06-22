@@ -6,6 +6,7 @@ Let's get you up-and-running with Ciara.
 
 ## Initializing a project
 
+On your project root, run the following command on your terminal:
 
 ```bash
 ciara init
