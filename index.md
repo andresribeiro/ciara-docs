@@ -16,24 +16,26 @@ hero:
 features:
   - title: No DevOps Knowledge Required
     details: Focus on your code. Ciara focus on your deployment.
+    icon: 🛠️
   - title: VM OR Bare Metal
     details: Deploy on any server, cloud or on-premises.
+    icon: 🗄️
   - title: Integrated Security
     details: Define your firewall configs in your Ciara configuration. We also set Fail2ban for you.
+    icon: 🗝️
   - title: Automatices OS updates
     details: Leverage Flatcar Container Linux for automatic OS updates.
+    icon: 🔧
   - title: Zero-Config OS Ready
     details: No need for prior configuration required.
+    icon: ⚙️
   - title: Zero-Downtime Deployments
     details: Deploy updates without service interruption.
+    icon: ⏱️
   - title: Automatic HTTPS support
     details: Don't worry about certificates renewal.
+    icon: 🔒
   - title: Multiple apps
     details: Deploy multipe apps on the same server.
+    icon: ➕
 ---
-
-## Why not Coolify, Kamal or Dokku?
-
-These are excellent tools, however I wanted something even simpler and more opinionated. While deploying with these tools, I need to configure automatic server updates, firewall rules, Fail2ban...
-
-**Ciara handles all of these**.
