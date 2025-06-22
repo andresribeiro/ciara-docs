@@ -16,7 +16,9 @@ export default defineConfig({
 			{ text: "Home", link: "/" },
 			{ text: "Docs", link: "/quickstart" },
 		],
-
+		search: {
+			provider: "local",
+		},
 		sidebar: [
 			{
 				text: "Docs",
@@ -37,7 +39,6 @@ export default defineConfig({
 				],
 			},
 		],
-
 		socialLinks: [
 			{ icon: "github", link: "https://github.com/andresribeiro/ciara" },
 		],
