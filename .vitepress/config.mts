@@ -23,7 +23,11 @@ export default defineConfig({
 					{ text: "Environment Variables", link: "/environment-variables" },
 					{ text: "Healthchecks", link: "/healthchecks" },
 					{ text: "Firewall", link: "/firewall" },
-					{ text: "HTTPS", link: "/https" },
+					{ text: "Proxy/HTTPS", link: "/proxy" },
+					{
+						text: "Multiple apps",
+						link: "/multiple-apps",
+					},
 					{ text: "Adding new servers", link: "/adding-new-servers" },
 				],
 			},

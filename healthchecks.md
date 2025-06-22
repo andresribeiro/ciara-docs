@@ -4,7 +4,8 @@ Ciara allows you to configure healthchecks for your applications to ensure your 
 
 You can define health check parameters in your `ciara.config.json` file. Here's an example:
 
-```json
+::: code-group
+```json [ciara.config.json]
 {
   "healthchecks": [
     {
@@ -15,8 +16,8 @@ You can define health check parameters in your `ciara.config.json` file. Here's 
     }
   ]
 }
-
 ```
+:::
 
 - `path`: The HTTP path that Ciara will probe to check the application's health. It's a GET request.
 - `interval`: The time, in seconds, between health check attempts.

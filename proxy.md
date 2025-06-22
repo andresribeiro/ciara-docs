@@ -6,24 +6,28 @@ For Caddy to automatically serve HTTPS for your domain, you must ensure your dom
 
 All you need to do (besides DNS configuration), is to set your domain on `ciara.config.json`:
 
-```json
+::: code-group
+```json [ciara.config.json]
 {
   "proxy": {
     "domains": ["example.com"]
   }
 }
 ```
+:::
 
-## Custom caddy configuration
+## Custom proxy configuration
 
 If you require more advanced Caddy configurations, you can provide a custom [Caddyfile](https://caddyserver.com/docs/caddyfile-tutorial). This file's path is specified in your `ciara.config.json`. This is optional; if not provided, Ciara will generate a default Caddyfile for automatic HTTPS.
 
-```json
+::: code-group
+```json [ciara.config.json]
 {
   "proxy": {
     "caddyfile": ["./caddyfile"]
   }
 }
 ```
+:::
 
 If you provide a custom caddyfile, any other proxy property, like `domains`, will be ignored. You will need to configure these properties directly within your custom Caddyfile.

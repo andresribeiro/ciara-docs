@@ -6,7 +6,8 @@ By default, Ciara drops all inbound traffic except for port `22` (SSH) and `5000
 
 To allow additional ports, configure them in your `ciara.config.json` file as follows:
 
-```json
+::: code-group
+```json [ciara.config.json]
 {
   "firewall": {
     "inbound": [
@@ -15,10 +16,12 @@ To allow additional ports, configure them in your `ciara.config.json` file as fo
   }
 }
 ```
+:::
 
 Allow can be `"*"` to accept traffic from any IP. If you wish to allow traffic only from specific IPs, you can pass an array of IPs:
 
-```json
+::: code-group
+```json [ciara.config.json]
 {
   "firewall": {
     "inbound": [
@@ -27,6 +30,7 @@ Allow can be `"*"` to accept traffic from any IP. If you wish to allow traffic o
   }
 }
 ```
+:::
 
 ## Outbound
 
