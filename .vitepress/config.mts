@@ -11,11 +11,19 @@ export default defineConfig({
 		"Ciara allows you to deploy any application in N servers in 4 minutes from your terminal, requiring no previous configuration on the Operational System.",
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
-		siteTitle: "",
+		siteTitle: "Ciara",
 		nav: [
 			{ text: "Home", link: "/" },
 			{ text: "Docs", link: "/quickstart" },
+			{ text: "About", link: "/about" },
 		],
+		editLink: {
+			pattern: "https://github.com/andresribeiro/ciara-docs/edit/main/:path",
+		},
+		footer: {
+			copyright:
+				'Released under MIT License. © 2025 <a href="https://github.com/andresribeiro">André Ribeiro</a>',
+		},
 		search: {
 			provider: "local",
 		},
@@ -36,6 +44,7 @@ export default defineConfig({
 					},
 					{ text: "Adding new servers", link: "/adding-new-servers" },
 					{ text: "LLMs", link: "/llms" },
+					{ text: "About", link: "/about" },
 				],
 			},
 		],
