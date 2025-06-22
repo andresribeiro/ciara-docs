@@ -1,7 +1,11 @@
 import { defineConfig } from "vitepress";
+import llmstxt from "vitepress-plugin-llms";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+	vite: {
+		plugins: [llmstxt()],
+	},
 	title: "Ciara - deploy from your terminal in 4 minutes",
 	description:
 		"Ciara allows you to deploy any application in N servers in 4 minutes from your terminal, requiring no previous configuration on the Operational System.",
@@ -29,6 +33,7 @@ export default defineConfig({
 						link: "/multiple-apps",
 					},
 					{ text: "Adding new servers", link: "/adding-new-servers" },
+					{ text: "LLMs", link: "/llms" },
 				],
 			},
 		],
