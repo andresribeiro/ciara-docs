@@ -1,3 +1,17 @@
+# HTTP Port
+
+You should define on which port your app is running on `ciara.config.json`. You can't use 80 or 443, as this ports are already used by the proxy.
+
+::: code-group
+```json [ciara.config.json]
+{
+  "proxy": {
+    "port": 5000
+  }
+}
+```
+:::
+
 # HTTPS
 
 Ciara automates the setup and management of HTTPS/SSL for your applications using [Caddy](https://caddyserver.com/). You don't need to manually configure certificates or worry about their renewal.
