@@ -1,6 +1,6 @@
 # Deploying
 
-> No previous configuration on your servers is required.
+No previous configuration on your servers is required.
 
 ## First deployment
 
