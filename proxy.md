@@ -38,7 +38,7 @@ If you require more advanced Caddy configurations, you can provide a custom [Cad
 ```json [ciara.config.json]
 {
   "proxy": {
-    "caddyfile": ["./caddyfile"]
+    "caddyfile": "./caddyfile"
   }
 }
 ```
