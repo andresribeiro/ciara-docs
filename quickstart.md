@@ -20,3 +20,5 @@ ciara init
 ✔ What is your SSH user for connecting to the server? root
 Successfully created ciara.config.json
 ```
+
+This command will create an `ciara.config.json` on your project root. We talk more about this file on the next section.
