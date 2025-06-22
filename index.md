@@ -29,3 +29,9 @@ features:
   - title: Automatic HTTPS support
     details: Don't worry about certificates renewal.
 ---
+
+## Why not Coolify, Kamal or Dokku?
+
+These are excellent tools, however I wanted something even simpler and more opinionated. While deploying with these tools, I need to configure automatic server updates, firewall rules, Fail2ban...
+
+**Ciara handles all of these**.
