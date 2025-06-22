@@ -2,11 +2,15 @@
 
 No previous configuration on your servers is required.
 
+## Dockerfile
+
+Your apps are deployed with Docker, so you should create an Dockerfile at the root of your project. Ciara will use this Dockerfile to build an image and deploy to your servers.
+
 ## First deployment
 
 All deployment-related configurations are managed within the `ciara.config.json` file located in the root of your project.
 
-All you need to do is run the following command in your terminal:
+To make your first deploy, all you need to do is run the following command in your terminal:
 
 ```bash
 ciara deploy
