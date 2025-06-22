@@ -4,7 +4,7 @@
 		"maxFileSize": 52428800
 	},
 	"output": {
-		"filePath": "ciara-repomix.txt",
+		"filePath": "ciara-docs-repomix.txt",
 		"style": "xml",
 		"parsableStyle": false,
 		"fileSummary": true,
