@@ -1,0 +1,21 @@
+# Quickstart
+
+Let's get you up-and-running with Ciara.
+
+## Installation
+
+## Initializing a project
+
+
+```bash
+ciara init
+```
+
+**Output**
+
+```
+✔ What is the IP address of the server? 127.0.0.1
+✔ Is SSH running on the default port (22)? Yes
+✔ What is your SSH user for connecting to the server? root
+Successfully created ciara.config.json
+```

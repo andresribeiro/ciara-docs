@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: Quickstart
-      link: /markdown-examples
+      link: /quickstart
     - theme: alt
       text: GitHub
       link: https://github.com/andresribeiro/ciara
