@@ -26,7 +26,7 @@ ciara deploy
 
 ## Updating configurations
 
-Whenever you are updating your firewall rules, environment variables or any other configuration, all you need to do is run the following command in your terminal:
+For changes on the proxy, please check [Updating Proxy Configuration](/proxy.html#updating-proxy-configuration). For firewall rules, environment variables or any other configuration, all you need to do is run the following command in your terminal:
 
 ```bash
 ciara deploy

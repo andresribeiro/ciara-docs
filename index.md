@@ -24,7 +24,7 @@ features:
     details: Define your firewall configs in your Ciara configuration. We also set Fail2ban for you.
     icon: 🗝️
   - title: Automatices OS updates
-    details: Leverage Flatcar Container Linux for automatic OS updates.
+    details: Leverage kpatch for automatic OS updates.
     icon: 🔧
   - title: Zero-Config OS Ready
     details: No need for prior configuration required.
