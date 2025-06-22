@@ -22,3 +22,7 @@ Ciara does not utilize live kernel patching solutions like [kpatch](https://gith
 > "Kernel crashes, spontaneous reboots, and data loss may occur"
 
 If you require high availability, please refer to our section on [High Availability](/high-availability).
+
+## Major Operational System Upgrades
+
+Ciara does not perform major Operational System upgrades (e.g., upgrading from Debian 11 to Debian 12). For such significant updates, we recommend creating a new server with the desired updated OS from scratch and then setting up your application using `ciara deploy`.
