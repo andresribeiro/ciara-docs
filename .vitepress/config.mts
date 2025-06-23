@@ -38,6 +38,10 @@ export default defineConfig({
 					{ text: "Healthchecks", link: "/healthchecks" },
 					{ text: "Firewall", link: "/firewall" },
 					{ text: "Proxy/HTTPS", link: "/proxy" },
+					{
+						text: "Databases/Plugins/Add-ons",
+						link: "/databases-plugins-add-ons",
+					},
 					{ text: "Server Updates", link: "/server-updates" },
 					{
 						text: "Multiple Apps",
