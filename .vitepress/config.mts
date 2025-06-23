@@ -35,9 +35,9 @@ export default defineConfig({
 					{ text: "Deploying", link: "/deploying" },
 					{ text: "Creating a Server", link: "/creating-a-server" },
 					{ text: "Environment Variables", link: "/environment-variables" },
+					{ text: "Proxy/HTTPS", link: "/proxy" },
 					{ text: "Healthchecks", link: "/healthchecks" },
 					{ text: "Firewall", link: "/firewall" },
-					{ text: "Proxy/HTTPS", link: "/proxy" },
 					{
 						text: "Databases/Plugins/Add-ons",
 						link: "/databases-plugins-add-ons",

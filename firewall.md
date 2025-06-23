@@ -2,7 +2,7 @@
 
 ## Inbound
 
-By default, Ciara drops all inbound traffic except for port `22` (SSH) and `5000` (your app). **These ports are always open and this cannot be changed.**
+By default, Ciara drops all inbound traffic except for port `22` (SSH), `80` (HTTP) and `443` (HTTPS). **These ports are always open and this cannot be changed.**
 
 To allow additional ports, configure them in your `ciara.config.json` file as follows:
 
@@ -11,7 +11,7 @@ To allow additional ports, configure them in your `ciara.config.json` file as fo
 {
   "firewall": {
     "inbound": [
-      { "port": 5000, "allow": "*" }
+      { "port": 3000, "allow": "*" }
     ]
   }
 }
@@ -25,7 +25,7 @@ Allow can be `"*"` to accept traffic from any IP. If you wish to allow traffic o
 {
   "firewall": {
     "inbound": [
-      { "port": 5000, "allow": ["10.0.0.2", "10.0.0.3"] }
+      { "port": 3000, "allow": ["10.0.0.2", "10.0.0.3"] }
     ]
   }
 }

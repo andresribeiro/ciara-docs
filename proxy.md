@@ -6,11 +6,13 @@ You should define on which port your app is running on `ciara.config.json`. You 
 ```json [ciara.config.json]
 {
   "proxy": {
-    "port": 5000
+    "port": 3000
   }
 }
 ```
 :::
+
+Ciara's proxy automatically routes external traffic to your app on ports `80` (HTTP) and `443` (HTTPS). If you want expose this port without the proxy, you do need to explicitly expose this application port (e.g., port `3000` in the example above) in your [firewall rules](/firewall) for external access.
 
 ## HTTPS
 
