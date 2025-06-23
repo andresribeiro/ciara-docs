@@ -18,4 +18,4 @@ When deploying Ciara on cloud platforms, we recommend setting up a private conne
 
 ## Disclaimer
 
-While Ciara implements several security features and provides recommendations, it's important to understand that no system can guarantee absolute security. Ciara is a deployment tool, and while it aims to facilitate secure deployments, we are not responsible for the overall security posture of your servers or applications. Users are responsible for implementing and maintaining their own security best practices, including regular security audits, vigilant monitoring, and adherence to their organization's security policies.
+While Ciara implements several security features and provides recommendations, no system can guarantee absolute security. Ciara is a deployment tool, and while it aims to facilitate secure deployments, we are not responsible for the overall security posture of your servers or applications. Users are responsible for implementing and maintaining their own security best practices, including regular security audits, vigilant monitoring, and adherence to their organization's security policies.

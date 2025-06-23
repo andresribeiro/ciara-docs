@@ -18,7 +18,7 @@ To allow additional ports, configure them in your `ciara.config.json` file as fo
 ```
 :::
 
-Allow can be `"*"` to accept traffic from any IP. If you wish to allow traffic only from specific IPs, you can pass an array of IPs:
+`allow` can be `"*"` to accept traffic from any IP. If you wish to allow traffic only from specific IPs, you can pass an array of IPs:
 
 ::: code-group
 ```json [ciara.config.json]

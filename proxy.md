@@ -1,6 +1,6 @@
 ## HTTP Port
 
-You should define on which port your app is running on `ciara.config.json`. You can't use 80 or 443, as this ports are already used by the proxy.
+You should define on which port your app is running on `ciara.config.json`. You can't use `80` or `443`, as this ports are already used by the proxy.
 
 ::: code-group
 ```json [ciara.config.json]
@@ -46,7 +46,7 @@ If you require more advanced Caddy configurations, you can provide a custom [Cad
 ```
 :::
 
-If you provide a custom caddyfile, any other proxy property, like `domains`, will be ignored. You will need to configure these properties directly within your custom Caddyfile.
+If you provide a custom Caddyfile, any other proxy property, like `domains`, will be ignored. You will need to configure these properties directly within your custom Caddyfile.
 
 ## Updating Proxy Configuration
 

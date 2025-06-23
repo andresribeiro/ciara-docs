@@ -2,7 +2,7 @@
 
 ## Unattended Upgrades
 
-To ensure your server's operating system stays up-to-date with the latest security patches, Ciara configures `unattended-upgrades`. This automates the process of applying critical updates, reducing the window of vulnerability.
+To ensure your server's Operational System stays up-to-date with the latest security patches, Ciara configures `unattended-upgrades`. This automates the process of applying critical updates, reducing the window of vulnerability.
 
 ## Kernel Upgrades
 
