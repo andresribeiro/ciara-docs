@@ -32,8 +32,8 @@ export default defineConfig({
 				text: "Docs",
 				items: [
 					{ text: "Quickstart", link: "/quickstart" },
-					{ text: "Deploying", link: "/deploying" },
 					{ text: "Creating a Server", link: "/creating-a-server" },
+					{ text: "Deploying", link: "/deploying" },
 					{ text: "Environment Variables", link: "/environment-variables" },
 					{ text: "Proxy/HTTPS", link: "/proxy" },
 					{ text: "Healthchecks", link: "/healthchecks" },

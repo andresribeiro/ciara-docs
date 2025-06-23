@@ -1,5 +1,9 @@
 # Security
 
+## SSH
+
+Please refer to [Creating a Server](/creating-a-server#ssh.html).
+
 ## Unattended Upgrades
 
 Please refer to [Server Updates](/server-updates.html).
