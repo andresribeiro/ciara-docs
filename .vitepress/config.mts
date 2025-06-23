@@ -1,8 +1,23 @@
-import { defineConfig } from "vitepress";
+import { defineConfig, type HeadConfig } from "vitepress";
 import llmstxt from "vitepress-plugin-llms";
+
+const umamiScript: HeadConfig = [
+	"script",
+	{
+		defer: "true",
+		src: "https://analytics.ciara-deploy.dev/script.js",
+		"data-website-id": "897e7fd0-85a7-4cdb-a6ae-325fba6c08c8",
+	},
+];
+const baseHeaders: HeadConfig[] = [];
+const headers =
+	process.env.NODE_ENV === "production"
+		? [...baseHeaders, umamiScript]
+		: baseHeaders;
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+	head: headers,
 	vite: {
 		plugins: [llmstxt()],
 	},
