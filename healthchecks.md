@@ -2,7 +2,7 @@
 
 Ciara allows you to configure healthchecks for your applications to ensure your deployment was successfull.
 
-You can define health check parameters in your `ciara.config.json` file. Here's an example:
+You can define your healthchecks in your `ciara.config.json`:
 
 ::: code-group
 ```json [ciara.config.json]
@@ -20,6 +20,6 @@ You can define health check parameters in your `ciara.config.json` file. Here's 
 :::
 
 - `path`: The HTTP path that Ciara will probe to check the application's health. It's a GET request.
-- `interval`: The time, in seconds, between health check attempts.
-- `timeout`: The maximum time, in seconds, Ciara will wait for a response from the health check path.
-- `retries`: The number of consecutive failed health checks after which Ciara will consider the application unhealthy and throw a deployment error.
+- `interval`: The time, in seconds, between healthcheck attempts.
+- `timeout`: The maximum time, in seconds, Ciara will wait for a response from the healthcheck path.
+- `retries`: The number of consecutive failed healthchecks after which Ciara will consider the application unhealthy and throw a deployment error.

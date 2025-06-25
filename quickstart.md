@@ -1,6 +1,6 @@
 # Quickstart
 
-Let's get you up-and-running with Ciara.
+Let's get you deploying with Ciara.
 
 ## Installation
 

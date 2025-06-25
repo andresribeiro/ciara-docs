@@ -10,7 +10,7 @@ Your apps are deployed with Docker, so you should create an Dockerfile at the ro
 
 All deployment-related configurations are managed within the `ciara.config.json` file located in the root of your project.
 
-To make your first deploy, all you need to do is run the following command in your terminal:
+To make your first deploy, run:
 
 ```bash
 ciara deploy
@@ -18,18 +18,18 @@ ciara deploy
 
 ## Subsequent deployments
 
-For deploying a new version of your app, all you need to do is run the following command in your terminal:
+For deploying a new version of your app, just run:
 
 ```bash
 ciara deploy
 ```
 
-## Updating configurations
+## Updating Configurations
 
-For changes on the proxy, please check [Updating Proxy Configuration](/proxy.html#updating-proxy-configuration). For firewall rules, environment variables or any other configuration, all you need to do is run the following command in your terminal:
+To update anything on your deployment, modify your `ciara.config.json` and then run:
 
 ```bash
 ciara deploy
 ```
 
-Ciara will then read your `ciara.config.json` file and automatically execute all necessary steps to deploy or update your application based on the new configuration.
+Ciara will then read your `ciara.config.json` file and automatically execute all necessary steps to update your application based on the new configuration.
