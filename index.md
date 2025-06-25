@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: Ciara
-  tagline: Deploy any application in N servers in 4 minutes from your terminal
+  tagline: Securely deploy any application on any server in 4 minutes.
   actions:
     - theme: brand
       text: Quickstart
@@ -14,17 +14,14 @@ hero:
       link: https://github.com/andresribeiro/ciara
 
 features:
-  - title: No DevOps Knowledge Required
-    details: Focus on your code. Ciara focus on your deployment.
-    icon: 🛠️
   - title: VM OR Bare Metal
     details: Deploy on any server, cloud or on-premises.
     icon: 🗄️
   - title: Integrated Security
     details: Define your firewall configs in your Ciara configuration. We also set Fail2ban for you.
     icon: 🗝️
-  - title: Automatic OS updates
-    details: Uses unattended-upgrades for automatic OS updates.
+  - title: Automatic system updates
+    details: Ciara uses unattended-upgrades for automatic security updates.
     icon: 🔧
   - title: Zero-Config OS Ready
     details: No need for prior configuration required.
@@ -38,4 +35,7 @@ features:
   - title: Multiple apps
     details: Deploy multipe apps on the same server.
     icon: ➕
+  - title: No DevOps Knowledge Required
+    details: Focus on your code. Ciara focus on your deployment.
+    icon: 🛠️
 ---

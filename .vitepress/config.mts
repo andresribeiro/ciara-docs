@@ -21,9 +21,8 @@ export default defineConfig({
 	vite: {
 		plugins: [llmstxt()],
 	},
-	title: "Ciara - deploy from your terminal in 4 minutes",
-	description:
-		"Ciara allows you to deploy any application in N servers in 4 minutes from your terminal, requiring no previous configuration on the Operational System.",
+	title: "Ciara",
+	description: "Securely deploy any application on any server in 4 minutes.",
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
 		siteTitle: "Ciara",

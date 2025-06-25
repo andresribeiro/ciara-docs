@@ -1,6 +1,6 @@
 # Ciara Documentation
 
-This repository contains the documentation for Ciara, a deployment tool that allows you to deploy any application to multiple servers in minutes from your terminal.
+This repository contains the documentation for Ciara, a deployment tool to securely deploy any application on any server in minutes 4 minutes.
 
 ## Contributing
 
