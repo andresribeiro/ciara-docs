@@ -21,4 +21,6 @@ Ciara connects to your server using SSH private keys. Connections via password a
 }
 ```
 
+SSH connections are always made with `root` user as Ciara needs to perform system-level operations.
+
 > <Badge type="warning" text="Warning" /> Ciara disables SSH password logins on your server for enhanced security after a successful connection.
