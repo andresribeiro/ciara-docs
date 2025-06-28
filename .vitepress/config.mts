@@ -50,7 +50,7 @@ export default defineConfig({
 					{ text: "Deploying", link: "/deploying" },
 					{ text: "Environment Variables", link: "/environment-variables" },
 					{ text: "Proxy/HTTPS", link: "/proxy" },
-					{ text: "Healthchecks", link: "/healthchecks" },
+					{ text: "Healthcheck", link: "/healthcheck" },
 					{ text: "Firewall", link: "/firewall" },
 					{
 						text: "Databases/Plugins/Add-ons",
