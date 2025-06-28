@@ -5,7 +5,7 @@ Environment variables for your application are read from a separate file. This f
 ::: code-group
 ```json [ciara.config.json]
 {
-  "env": "./ciara.env"
+  "env": "./production.env"
 }
 ```
 :::
