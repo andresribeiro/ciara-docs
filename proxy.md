@@ -2,7 +2,7 @@
 
 ## HTTP Port
 
-You should define on which port your app is running on `ciara.config.json`. You can't use `80` or `443`, as this ports are already used by the proxy.
+You should define on which port your app is running:
 
 ::: code-group
 ```json [ciara.config.json]
