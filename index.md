@@ -32,9 +32,6 @@ features:
   - title: Automatic HTTPS support
     details: Don't worry about certificates renewal.
     icon: 🔒
-  - title: Multiple apps
-    details: Deploy multipe apps on the same server.
-    icon: ➕
   - title: No DevOps Knowledge Required
     details: Focus on your code. Ciara focus on your deployment.
     icon: 🛠️
