@@ -38,7 +38,7 @@ If your server is running SSH on a custom port, you can configure it on `ciara.c
   "servers": [
 		{
 			"ip": "94...",
-			"port": "1010" // Your custom SSH port
+			"port": 1010 // Your custom SSH port
 		}
 	]
 }

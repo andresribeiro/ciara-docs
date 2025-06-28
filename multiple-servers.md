@@ -12,11 +12,11 @@ If you wish to add another server to the pool of servers you have, update `serve
   "servers": [
 		{
 			"ip": "94...",
-			"port": "22"
+			"port": 22
 		},
 		{
 			"ip": "162...",
-			"port": "22"
+			"port": 22
 		}
 	]
 }
