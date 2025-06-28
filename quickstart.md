@@ -16,7 +16,7 @@ ciara init
 
 ```
 ✔ What is your app name? my-website
-✔ What is the IP address of the server? 127.0.0.1
+✔ What is the IP address of the server? 94...
 ✔ Is SSH running on the default port (22)? Yes
 ✔ Which port is your application running on? 3000
 ✔ Would you like to setup a domain? Yes
