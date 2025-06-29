@@ -10,6 +10,8 @@ Your apps are deployed with Docker, so you should create an Dockerfile at the ro
 
 All deployment-related configurations are managed within the `ciara.config.json` file located in the root of your project.
 
+Before making your first deploy, you should manually connect to your server via SSH at least once.  This is to add the server's host key to your local `known_hosts` file, preventing "Host key verification failed" errors during deployment.
+
 To make your first deploy, run:
 
 ```bash
