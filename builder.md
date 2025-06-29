@@ -21,7 +21,7 @@ To configure a custom remote builder server:
 }
 :::
 
-## Local builder:
+## Local builder
 
 If you want to build your application on your computer:
 

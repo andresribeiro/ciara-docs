@@ -27,7 +27,7 @@ Ciara drops by default all inbound traffic except for ports `80` (HTTP) and `443
 
 > <Badge type="warning" text="Important" /> When you run `ciara init`, a firewall rule is added to allow inbound traffic on port 22 from any IP. If you remove this rule, you might be locked out from your server as you might not be able to connect to it via SSH.
 
-## Restrict to specific IPs
+## Restrict to Specific IPs
 
 > Currently only IPv4 is supported.
 
