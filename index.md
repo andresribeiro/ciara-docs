@@ -17,10 +17,10 @@ features:
   - title: VM OR Bare Metal
     details: Deploy on any server, cloud or on-premises.
     icon: 🗄️
-  - title: Integrated Security
+  - title: Integrated Firewall
     details: Define your firewall configs in your Ciara configuration. We also set Fail2ban for you.
     icon: 🗝️
-  - title: Automatic system updates
+  - title: Automatic System Updates
     details: Ciara uses unattended-upgrades for automatic security updates.
     icon: 🔧
   - title: Zero-Config OS Ready
@@ -32,7 +32,7 @@ features:
   - title: Automatic HTTPS support
     details: Don't worry about certificates renewal.
     icon: 🔒
-  - title: No DevOps Knowledge Required
+  - title: Simple config file
     details: Focus on your code. Ciara focuses on your deployment.
     icon: 🛠️
 ---
