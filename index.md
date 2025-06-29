@@ -32,6 +32,9 @@ features:
   - title: Automatic HTTPS support
     details: Don't worry about certificates renewal.
     icon: 🔒
+  - title: Multiple Servers Deployments
+    details: Deploy your applications across one or multiple servers.
+    icon: 🖧
   - title: Simple config file
     details: Focus on your code. Ciara focuses on your deployment.
     icon: 🛠️
