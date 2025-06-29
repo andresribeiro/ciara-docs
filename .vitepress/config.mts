@@ -17,6 +17,9 @@ const headers =
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+	sitemap: {
+		hostname: "https://ciara-deploy.dev",
+	},
 	head: headers,
 	vite: {
 		plugins: [llmstxt()],
