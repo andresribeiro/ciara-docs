@@ -1,8 +1,8 @@
 # Creating a Server
 
-## Operational System
+## Operating System
 
-Ciara requires that you use Debian as your Operational System.
+Ciara requires that you use Debian as your Operating System.
 
 ## Configuration
 

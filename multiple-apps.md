@@ -1,3 +1,3 @@
 # Multiple Apps
 
-You cannot run multiple apps on a single server **yet**.
+Running multiple apps on a single server is not currently supported.

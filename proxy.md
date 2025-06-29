@@ -34,7 +34,7 @@ For Caddy to automatically serve HTTPS for your domain, you must ensure your dom
 
 ## Custom Proxy Configuration
 
-If you require more advanced Caddy configurations, you can provide a custom [Caddyfile](https://caddyserver.com/docs/caddyfile-tutorial). This file's path is specified in your `ciara.config.json`. This is optional; if not provided, Ciara will generate an Caddyfile for you.
+If you require more advanced Caddy configurations, you can provide a custom [Caddyfile](https://caddyserver.com/docs/caddyfile-tutorial). This file's path is specified in your `ciara.config.json`. This is optional; if not provided, Ciara will generate a Caddyfile for you.
 
 ::: code-group
 ```json [ciara.config.json]

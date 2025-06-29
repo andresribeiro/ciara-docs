@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: Ciara
-  tagline: Securely deploy any application on any server in 4 minutes.
+  tagline: Securely deploy any application on any server.
   actions:
     - theme: brand
       text: Quickstart
@@ -33,6 +33,6 @@ features:
     details: Don't worry about certificates renewal.
     icon: 🔒
   - title: No DevOps Knowledge Required
-    details: Focus on your code. Ciara focus on your deployment.
+    details: Focus on your code. Ciara focuses on your deployment.
     icon: 🛠️
 ---

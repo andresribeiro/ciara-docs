@@ -1,6 +1,6 @@
 # Server Updates
 
-To ensure your Operational System stays updated with the latest security patches, Ciara configures `unattended-upgrades` for you.
+To ensure your Operating System stays updated with the latest security patches, Ciara configures `unattended-upgrades` for you.
 
 ## Server Reboots
 

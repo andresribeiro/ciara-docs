@@ -4,7 +4,7 @@ Ciara builds your application on a remote server. The default build server is th
 
 ### Build Architecture <Badge type="warning" text="Important" />
 
-If you are deploying on multiple servers, all of them should have the same architecture. It means that all your servers should be either `amd64` or `arm64`. You can't mix both of them.
+If you are deploying on multiple servers, all of them should have the same architecture. This means that all your servers should be either `amd64` or `arm64`. You can't mix both of them.
 
 > Ciara detects the architecture of the builder server and creates a build only for this architecture, as [QEMU](https://docs.docker.com/build/building/multi-architecture/#qemu) builds are very slow.
 

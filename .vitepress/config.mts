@@ -22,7 +22,7 @@ export default defineConfig({
 		plugins: [llmstxt()],
 	},
 	title: "Ciara",
-	description: "Securely deploy any application on any server in 4 minutes.",
+	description: "Securely deploy any application on any server.",
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
 		siteTitle: "Ciara",

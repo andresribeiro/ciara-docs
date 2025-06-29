@@ -1,6 +1,6 @@
 # Healthcheck
 
-Ciara allows you to configure an healthcheck for your applications to ensure your deployment was successfull.
+Ciara allows you to configure an healthcheck for your applications to ensure your deployment was successful.
 
 You can define it in your `ciara.config.json`:
 
