@@ -9,7 +9,7 @@ const umamiScript: HeadConfig = [
 		"data-website-id": "897e7fd0-85a7-4cdb-a6ae-325fba6c08c8",
 	},
 ];
-const baseHeaders: HeadConfig[] = [];
+const baseHeaders: HeadConfig[] = [["link", { href: "./favicon.ico" }]];
 const headers =
 	process.env.NODE_ENV === "production"
 		? [...baseHeaders, umamiScript]
